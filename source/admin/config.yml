@@ -55,6 +55,9 @@ collections:
           - label: Story
             name: story
             widget: markdown
+          - label: Test
+            name: test
+            widget: markdown
 
   - name: settings
     label: Settings
