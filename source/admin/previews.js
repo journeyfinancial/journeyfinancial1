@@ -50,6 +50,7 @@ const HomePreview = ({ entry, widgetFor }) => {
         <div className="caption">
           <div className="row">
             <h1>{data.hero.title}</h1>
+            <h4>{data.hero.subheader}</h4>
           </div>
         </div>
       </section>
