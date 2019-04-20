@@ -13,7 +13,7 @@
   h1 {
     @extend %column;
     @extend %col-xs-8;
-    color: $background-primary-color!;
+    color: $background-primary-color !important;
     margin: 0;
     padding-top: 20%;
 
