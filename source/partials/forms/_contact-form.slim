@@ -1,0 +1,25 @@
+article.contactForm
+    .row
+        form data-netlify="true" method="POST" name="contact" netlify-honeypot="bot-field" 
+            .form-group
+                p.hidden
+                label
+                    | Don’t fill this out if you're human:
+                    input name="bot-field" /
+                p
+                label
+                    | Name:
+                    input.form-control name="name" type="text" /
+            .form-group
+                p
+                label
+                    | Email:
+                    input.form-control name="email" type="text" /
+            .form-group
+                p
+                label
+                    | Message:
+                    textarea.form-control name="message" rows="3" 
+                p
+                button.btn.btn-primary type="submit"  Send
+
