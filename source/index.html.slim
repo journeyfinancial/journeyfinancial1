@@ -16,15 +16,17 @@ section.homepage-story
 
 section.homepage-test
   .container
-    .row
-      .test-content
-       = markdown data.pages.home.test
+     .row
+       .test-content
+        = markdown data.pages.home.test
 
 section.homepage-services
   .container
     .row
       .services-content
-       = markdown data.pages.home.services
+        h2 = data.pages.home.services.title
+        h4 = data.pages.home.services.description
+        h4 = data.pages.home.services.info
 
 section.homepage-products.products
   .container

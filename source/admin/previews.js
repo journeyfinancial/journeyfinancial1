@@ -74,6 +74,7 @@ const HomePreview = ({ entry, widgetFor }) => {
             <div className="services-content">
               <h2>{data.services.title}</h2>
               <h4>{data.services.description}</h4>
+              <h4>{data.services.info}</h4>
             </div>
           </div>
         </div>
