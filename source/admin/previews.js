@@ -68,6 +68,13 @@ const HomePreview = ({ entry, widgetFor }) => {
           </div>
         </div>
       </section>
+      <section className="homepage-services">
+        <div className="container">
+          <div className="row">
+            <div className="services-content">{widgetFor('services')}</div>
+          </div>
+        </div>
+      </section>
     </div>
   )
 }
