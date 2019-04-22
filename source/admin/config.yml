@@ -65,11 +65,11 @@ collections:
             fields:
               - {label: Title, name: title, widget: string}
               - {label: Service1, name: service1, widget: string}
-              - {label: Description1, name: description1, widget: markup}
+              - {label: Description1, name: description1, widget: markdown}
               - {label: Service2, name: service2, widget: string}
-              - {label: Description2, name: description2, widget: markup}
+              - {label: Description2, name: description2, widget: markdown}
               - {label: Service3, name: service3, widget: string}
-              - {label: Description3, name: description3, widget: markup}
+              - {label: Description3, name: description3, widget: markdown}
 
   - name: settings
     label: Settings
