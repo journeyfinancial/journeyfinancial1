@@ -64,8 +64,12 @@ collections:
             widget: object
             fields:
               - {label: Title, name: title, widget: string}
-              - {label: Description, name: description, widget: markup}
-              - {label: Info, name: info, widget: string}
+              - {label: Service1, name: service1, widget: string}
+              - {label: Description1, name: description1, widget: markup}
+              - {label: Service2, name: service2, widget: string}
+              - {label: Description2, name: description2, widget: markup}
+              - {label: Service3, name: service3, widget: string}
+              - {label: Description3, name: description3, widget: markup}
 
   - name: settings
     label: Settings

@@ -5,6 +5,10 @@ hero:
 story: UNBIASED
 test: weeeeeeeeow1111
 services:
-  description: fdsfs
-  info: fdsfdsfsdfdsfds
   title: What We Do
+  service1:
+  description1: fdsfs
+  service2:
+  description2: fdsfs
+  service3:
+  description3: fdsfs

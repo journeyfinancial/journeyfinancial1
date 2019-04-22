@@ -73,8 +73,18 @@ const HomePreview = ({ entry, widgetFor }) => {
           <div className="row">
             <div className="services-content">
               <h2>{data.services.title}</h2>
-              <h4>{data.services.description}</h4>
-              <h4>{data.services.info}</h4>
+              <div className="row">
+                <h3>{data.services.service1}</h3>
+                <p>{data.services.description1}</p>
+              </div>
+              <div className="row">
+                <h3>{data.services.service2}</h3>
+                <p>{data.services.description2}</p>
+              </div>
+              <div className="row">
+                <h3>{data.services.service3}</h3>
+                <p>{data.services.description3}</p>
+              </div>
             </div>
           </div>
         </div>
