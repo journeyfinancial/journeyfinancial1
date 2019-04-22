@@ -75,15 +75,15 @@ const HomePreview = ({ entry, widgetFor }) => {
               <h2>{data.services.title}</h2>
               <div className="row">
                 <h3>{data.services.service1}</h3>
-                <p>{data.services.description1}</p>
+                <p>{data.services.body}</p>
               </div>
               <div className="row">
                 <h3>{data.services.service2}</h3>
-                <p>{data.services.description2}</p>
+                <p>{data.services.body}</p>
               </div>
               <div className="row">
                 <h3>{data.services.service3}</h3>
-                <p>{data.services.description3}</p>
+                <p>{data.services.body}</p>
               </div>
             </div>
           </div>
